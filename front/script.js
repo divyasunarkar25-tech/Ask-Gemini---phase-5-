@@ -34,7 +34,7 @@ async function sendMessage() {
 
     try {
         // ================= API CALL =================
-        const response = await fetch("https://ask-gemini-phase-5-1.onrender.com/api/gemini/ask", {
+        const response = await fetch("https://ask-gemini-phase-5-backend.onrender.com/api/gemini/ask", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
